@@ -4,14 +4,14 @@ import java.util.HashSet;
 import java.util.List;
 
 /**
- * Codetop4, leetcode15
+ * Codetop5, leetcode15
  * https://leetcode.cn/problems/3sum/description/
  */
-public class CodeTop4 {
+public class CodeTop5 {
     public static void main(String[] args) {
         // System.out.println("hello");
         // Solution sol = new Solution();
-        System.out.println(new CodeTop4().threeSum(new int[]{-1,0,1,2,-1,-4}));
+        System.out.println(new CodeTop5().threeSum(new int[]{-1,0,1,2,-1,-4}));
     }
 
     public List<List<Integer>> threeSum(int[] nums) {
