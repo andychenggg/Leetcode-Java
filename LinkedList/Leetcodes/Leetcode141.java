@@ -1,7 +1,6 @@
-public class Leetcode141 {
+package LinkedList.Leetcodes;
 
-    
-}
+
 
    class ListNode {
        int val;

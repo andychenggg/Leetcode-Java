@@ -1,10 +1,10 @@
-import java.util.Comparator;
+package LinkedList.Leetcodes;
+
+
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class Leetcode23 {
-    
-}
+
 
 
 class ListNode {

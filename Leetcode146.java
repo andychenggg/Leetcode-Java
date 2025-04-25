@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class CodeTop2 {
+class Solution {
     public static void main(String[] args) {
         LRUCache lRUCache = new LRUCache(2);
         // 1 2 1 3 2 4 1 3 4

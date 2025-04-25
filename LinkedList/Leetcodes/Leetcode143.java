@@ -1,12 +1,5 @@
-public class Leetcode143 {
-    public static void main(String[] args) {
-        
-    }
+package LinkedList.Leetcodes;
 
-
-
-    
-}
 
 
 // Definition for singly-linked list.

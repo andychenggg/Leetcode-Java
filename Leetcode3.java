@@ -1,11 +1,9 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class CodeTop1 {
 
-    public static void main(String[] args) {
-        
-    }
+class solution {
+
 
     /**
      * CodeTop1, Leetcode3: https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/

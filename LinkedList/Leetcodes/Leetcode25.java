@@ -1,22 +1,4 @@
-public class CodeTop3 {
-
-    public static void main(String[] args) {
-        ListNode l1 = new ListNode(1);
-        ListNode l2 = new ListNode(2);
-        ListNode l3 = new ListNode(3);
-        l1.next = l2;
-        l2.next = l3;
-        ListNode head = new Solution().reverseKGroup(l1, 2);
-        while(head != null){
-            System.out.println(head.val);
-            head = head.next;
-        }
-
-
-    }
-
-
-}
+package LinkedList.Leetcodes;
 
 /**
  * Codetop3, Leetcode 25:
@@ -31,6 +13,20 @@ class ListNode {
 }
 
 class Solution {
+    public static void main(String[] args) {
+        ListNode l1 = new ListNode(1);
+        ListNode l2 = new ListNode(2);
+        ListNode l3 = new ListNode(3);
+        l1.next = l2;
+        l2.next = l3;
+        ListNode head = new Solution().reverseKGroup(l1, 2);
+        while(head != null){
+            System.out.println(head.val);
+            head = head.next;
+        }
+
+
+    }
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode pre = new ListNode(), cur = pre;
         pre.next = head;

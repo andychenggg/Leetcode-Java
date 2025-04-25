@@ -1,7 +1,5 @@
-public class Leetcode92 {
+package LinkedList.Leetcodes;
 
-    
-}
    class ListNode {
       int val;
       ListNode next;

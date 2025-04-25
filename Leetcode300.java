@@ -4,7 +4,7 @@ import java.lang.Math;
  * CodeTop8, Leetcode300:
  * https://leetcode.cn/problems/longest-increasing-subsequence/description/
  */
-public class CodeTop8 {
+class Solution {
     public static void main(String[] args) {
         
     }

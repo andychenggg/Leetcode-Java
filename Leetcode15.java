@@ -7,11 +7,10 @@ import java.util.List;
  * Codetop5, leetcode15
  * https://leetcode.cn/problems/3sum/description/
  */
-public class CodeTop5 {
+ class solution {
     public static void main(String[] args) {
         // System.out.println("hello");
         // Solution sol = new Solution();
-        System.out.println(new CodeTop5().threeSum(new int[]{-1,0,1,2,-1,-4}));
     }
 
     public List<List<Integer>> threeSum(int[] nums) {

@@ -1,4 +1,6 @@
-public class CodeTop6 {
+package LinkedList.Leetcodes;
+
+class Solution {
     public static void main(String[] args) {
         
     }

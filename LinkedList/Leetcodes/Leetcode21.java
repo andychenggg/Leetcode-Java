@@ -1,9 +1,5 @@
-public class Leetcode21 {
+package LinkedList.Leetcodes;
 
-    public static void main(String[] args) {
-        
-    }
-}
 
 
  class ListNode {
