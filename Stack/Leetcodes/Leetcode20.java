@@ -1,11 +1,8 @@
+package Stack.Leetcodes;
+
 import java.util.ArrayDeque;
 
-public class Leetcode20 {
 
-    public static void main(String[] args) {
-        
-    }
-}
 
 class Solution {
     public boolean isValid(String s) {
