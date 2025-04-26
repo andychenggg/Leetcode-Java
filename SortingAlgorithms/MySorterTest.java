@@ -6,7 +6,7 @@ import java.util.Random;
 public class MySorterTest {
 
     public static void main(String[] args) {
-        CountingSort sorter = new CountingSort();
+        RadixSort sorter = new RadixSort();
         Random random = new Random();
 
         int totalTests = 20;
