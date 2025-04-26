@@ -1,12 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Leetcode102 {
 
-    public static void main(String[] args) {
-        
-    }
-}
 class TreeNode {
     int val;
       TreeNode left;
