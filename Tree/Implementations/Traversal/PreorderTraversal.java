@@ -20,15 +20,15 @@ public class PreorderTraversal extends Traversal{
     public void iterativeTraversal(TreeNode root, ArrayList<Integer> res){
         if(root == null) return;
 
-        ArrayDeque <TreeNode> q = new ArrayDeque<>();
-        q.push(root);
+        ArrayDeque <TreeNode> stack = new ArrayDeque<>();
+        stack.push(root);
 
-        while(!q.isEmpty()){
-            TreeNode rt = q.pollLast();
+        while(!stack.isEmpty()){
+            TreeNode rt = stack.pop();
             res.add(rt.val);
 
-            if (rt.right != null) q.addLast(rt.right);
-            if (rt.left != null) q.addLast(rt.left);
+            if (rt.right != null) stack.push(rt.right);
+            if (rt.left != null) stack.push(rt.left);
 
         }
 
