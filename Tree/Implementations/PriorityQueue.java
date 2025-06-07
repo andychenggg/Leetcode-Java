@@ -187,7 +187,8 @@ class ArrayBasedHeap{
             int pos = i;
             while (2 * pos + 1 < arr.size() && arr.get(pos) > arr.get(2 * pos + 1) ||
             2 * pos + 2 < arr.size() && arr.get(pos) > arr.get(2 * pos + 2)){
-                if (2 * pos + 1 < arr.size() && arr.get(pos) > arr.get(2 * pos + 1)){
+                if (2 * pos + 1 < arr.size() && 2 * pos + 2 < arr.size()
+                && arr.get(2 * pos + 1) < arr.get(2 * pos +2)|| 2 * pos + 2 >= arr.size()){
                     int temp = arr.get(pos);
                     arr.set(pos, arr.get(2 * pos+1));
                     arr.set(2 * pos+1, temp);
